@@ -90,9 +90,9 @@ const SortableRow = ({
           )}
         </td>
 
-        <td className="railway-grid-cell text-center font-medium w-12">
+        {/* <td className="railway-grid-cell text-center font-medium w-12">
           {row.srNo}
-        </td>
+        </td> */}
         <td className="railway-grid-cell">
           <div className="flex items-center gap-2">
             {hasSubRows && toggleExpand && (
@@ -233,7 +233,7 @@ const ZoneACircuitTable = () => {
             <thead>
               <tr className="bg-secondary">
                 <th className="railway-grid-cell w-[40px]"></th> {/* Drag Handle Column */}
-                <th className="railway-grid-cell text-left font-semibold">Sr No.</th>
+                {/* <th className="railway-grid-cell text-left font-semibold">Sr No.</th> */}
                 <th className="railway-grid-cell text-left font-semibold">Name of the Circuit</th>
                 <th className="railway-grid-cell text-left font-semibold">Total Failure (Dt & Time)</th>
                 <th className="railway-grid-cell text-left font-semibold">RT (Dt & Time)</th>
