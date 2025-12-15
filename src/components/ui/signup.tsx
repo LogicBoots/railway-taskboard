@@ -288,7 +288,7 @@ const SignUpCard = () => {
                 transition={{ delay: 0.7, duration: 0.5 }}
                 className="text-3xl font-bold mb-2 text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500"
               >
-                Travel Connect
+                Stay on Track
               </motion.h2>
               <motion.p 
                 initial={{ opacity: 0, y: -20 }}
@@ -296,7 +296,7 @@ const SignUpCard = () => {
                 transition={{ delay: 0.8, duration: 0.5 }}
                 className="text-sm text-center text-gray-400 max-w-xs"
               >
-                Sign in to access your global travel dashboard and connect with nomads worldwide
+                Manage, monitor, and complete railway tasks with ease.
               </motion.p>
             </div>
           </div>
